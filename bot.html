@@ -133,6 +133,32 @@
 
     </div>
 
+    <!-- FLOWISE CHATBOT EMBED -->
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+
+        Chatbot.init({
+            chatflowid: "2e8068b3-764e-44ab-98bc-7fc21f166cc8",
+            apiHost: "https://cloud.flowiseai.com",
+
+            theme: {
+                button: {
+                    backgroundColor: "#0B5CFF",
+                    right: 30,
+                    bottom: 30,
+                    size: "medium"
+                },
+                chatWindow: {
+                    welcomeMessage: "Hello! I'm the BOT Project Assistant. How can I help you today?",
+                    backgroundColor: "#FFFFFF",
+                    height: 600,
+                    width: 420,
+                    fontSize: 15,
+                }
+            }
+        })
+    </script>
+
 </body>
 
 </html>
