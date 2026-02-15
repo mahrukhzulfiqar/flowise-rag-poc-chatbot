@@ -1,4 +1,4 @@
-# 🤖 AI Chatbot – Proof of Concept
+# 🤖 AI Chatbot – POC
 
 ## Background
 
